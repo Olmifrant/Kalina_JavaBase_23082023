@@ -1,5 +1,6 @@
 package ua.hillel.kalina.lessons.less_005;
 
+import javax.swing.table.AbstractTableModel;
 import java.util.Scanner;
 
 public class dz006 {
@@ -177,6 +178,9 @@ public class dz006 {
         System.out.println("The overall value of team frags " + "teamName2 " +  totalPointsTeam2);
 
         System.out.println();
+
+        double avTeamResult = totalPointsTeam1 + totalPointsTeam2 / 2;
+        System.out.println("Average team result " + avTeamResult);
 
         if (totalPointsTeam1 > totalPointsTeam2){
             System.out.println("Team victory " + teamName1);
