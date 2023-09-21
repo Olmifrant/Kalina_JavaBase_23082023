@@ -179,8 +179,13 @@ public class dz006 {
 
         System.out.println();
 
-        double avTeamResult = (totalPointsTeam1 + totalPointsTeam2) * 0.5 ;
-        System.out.println("Average team result " + avTeamResult);
+        double avResultTeam1 = (double) (str1 + str2 + str3 + str4 + str5) / 5 ;
+        double avResultTeam2 = (double) (str6 + str7 + str8 + str9 + str10) / 5 ;
+
+        System.out.println("Average result team " + teamName1 + " " + avResultTeam1);
+        System.out.println("Average result team " + teamName2 + " " + avResultTeam2);
+
+        System.out.println();
 
         if (totalPointsTeam1 > totalPointsTeam2){
             System.out.println("Team victory " + teamName1);
