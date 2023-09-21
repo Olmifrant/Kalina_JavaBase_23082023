@@ -11,7 +11,7 @@ public class dz006 {
         System.out.println("Welcome to game");
         System.out.println();
 
-//        name 1 time
+//        name 1 team
 
         System.out.println("Please input team name 1");
         Scanner scanner1 = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class dz006 {
         System.out.println("Team name 1 is " + teamName1);
         System.out.println();
 
-//        name 2 time
+//        name 2 team
 
         System.out.println("Please input team name 2");
         Scanner scanner2 = new Scanner(System.in);
@@ -41,7 +41,7 @@ public class dz006 {
         int str1 = scanner3.nextInt();
         System.out.println();
 
- //       player 2 taem 1
+ //       player 2 team 1
 
         System.out.println("Enter the frag value for player 2 team " + teamName1);
         Scanner scanner4 = new Scanner(System.in);
@@ -153,7 +153,7 @@ public class dz006 {
         int str9 = scanner11.nextInt();
         System.out.println();
 
-        //         player 5 team 2
+ //       player 5 team 2
 
         System.out.println("Enter the frag value for player 5 team " + teamName2);
         Scanner scanner12 = new Scanner(System.in);
