@@ -179,7 +179,7 @@ public class dz006 {
 
         System.out.println();
 
-        double avTeamResult = totalPointsTeam1 + totalPointsTeam2 / 2;
+        double avTeamResult = (totalPointsTeam1 + totalPointsTeam2) * 0.5 ;
         System.out.println("Average team result " + avTeamResult);
 
         if (totalPointsTeam1 > totalPointsTeam2){
