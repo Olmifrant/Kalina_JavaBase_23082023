@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class dz_007 {
     public static void main(String[] args) {
+
         System.out.println();
         System.out.println("Цифровая Java рулетка)))");
 
@@ -56,8 +57,9 @@ public class dz_007 {
             }
         }
         System.out.println("Вы проиграли.");
-        System.out.println("(Как и положено кожаному мешку!)");
-        System.out.println("Было загадано число " + rand + " " + "но не судьба))");
+        System.out.println("Как и положено кожаному мешку. Ахах!");
     }
 }
+
+
 
