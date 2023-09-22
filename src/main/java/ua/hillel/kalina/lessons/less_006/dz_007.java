@@ -12,7 +12,6 @@ public class dz_007 {
 
         int rand = (int) (Math.random() * 11);
 
-        System.out.println();
 
         for (int i = 0; i < 3 ; i++) {
 
@@ -58,6 +57,8 @@ public class dz_007 {
         }
         System.out.println("Вы проиграли.");
         System.out.println("Как и положено кожаному мешку. Ахах!");
+
+
     }
 }
 
