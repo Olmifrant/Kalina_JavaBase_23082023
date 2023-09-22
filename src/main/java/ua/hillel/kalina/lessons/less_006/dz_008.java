@@ -41,14 +41,12 @@ public class dz_008 {
                 counter++;
                 System.out.println("Шатл номер " + counter + " " +  "получает имя  " + i);
 
-
-
             }
-
 
         }
         System.out.println();
         System.out.println("Удачного полета суеверные китайцы)))");
+
 
     }
 }
