@@ -52,6 +52,7 @@ public class dz_007 {
                     System.out.println("Введенные данные не являются числом");
                     System.out.println();
                 }
+
                 scanner.nextLine();
             }
         }
