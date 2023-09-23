@@ -58,6 +58,7 @@ public class dz_007 {
         }
         System.out.println("Вы проиграли.");
         System.out.println("Как и положено кожаному мешку. Ахах!");
+        System.out.println("Было загадано число " + rand);
 
 
     }
