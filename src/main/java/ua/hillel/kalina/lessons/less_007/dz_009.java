@@ -56,5 +56,6 @@ public class dz_009 {
         }
         double avAgeTeam2 = (sumAgeTeam2 / team2.length);
         System.out.println("Средний возраст второй комманды " + avAgeTeam2);
+
     }
 }
