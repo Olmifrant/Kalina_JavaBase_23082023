@@ -20,6 +20,7 @@ public class dz_plus {
         }
         System.out.println("Содержимое массива до сортировки");
         System.out.println();
+
         for (int j = 0; j < mass.length; j++) {
             if (j == mass.length - 1) {
                 System.out.print(mass[j]);
@@ -37,9 +38,7 @@ public class dz_plus {
             while (j >= 0 && mass[j] > key) {
                 mass[j + 1] = mass[j];
                 j--;
-            }
-
-            mass[j + 1] = key;
+            }mass[j + 1] = key;
         }
         System.out.println();
 
@@ -55,7 +54,6 @@ public class dz_plus {
         System.out.println();
         System.out.println();
 
-
         int userNumb = 0;
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -68,7 +66,6 @@ public class dz_plus {
                     userNumb = userValue;
                     scanner.nextLine();
                     break;
-
                 } else {
                     System.out.println("В диапазоне от 0 до 100 пожалуйста!");
                     System.out.println();
