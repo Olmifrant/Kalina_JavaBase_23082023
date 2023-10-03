@@ -15,10 +15,10 @@ public class dz_011_b {
         Scanner sc1 = new Scanner(System.in);
         int n = 0;
         while (true) {
-            System.out.println("Введите количество строк матрицы ");
+            System.out.println("Введите количество строк матрицы (максимум 1000)");
             if (sc1.hasNextInt()) {
                 int userValue = sc1.nextInt();
-                if (userValue >= 2 && userValue <= 50) {
+                if (userValue >= 2 && userValue <= 1000) {
                     System.out.println("Количество строк матрицы  = " + userValue);
                     System.out.println();
                     n = userValue;
@@ -41,10 +41,10 @@ public class dz_011_b {
         int m = 0;
 
         while (true) {
-            System.out.println("Введите количество столбцов матрицы ");
+            System.out.println("Введите количество столбцов матрицы (максимум 1000)  ");
             if (sc2.hasNextInt()) {
                 int userValue = sc2.nextInt();
-                if (userValue >= 2 && userValue <= 50) {
+                if (userValue >= 2 && userValue <= 1000) {
                     System.out.println("Количество столбцов матрицы = " + userValue);
                     System.out.println();
                     m = userValue;
@@ -52,7 +52,7 @@ public class dz_011_b {
                     break;
 
                 } else {
-                    System.out.println("В диапазоне от 2 до 100 пожалуйста!");
+                    System.out.println("В диапазоне от 2 до 1000 пожалуйста!");
                     System.out.println();
                     sc2.nextLine();
                 }
