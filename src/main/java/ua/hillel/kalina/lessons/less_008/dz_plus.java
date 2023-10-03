@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class dz_plus {
     public static void main(String[] args) {
 
-
         System.out.println();
         System.out.println("Дополнительная домашняя работа");
         System.out.println();
@@ -42,7 +41,7 @@ public class dz_plus {
         }
         System.out.println();
 
-        System.out.println("Содержимое после сортировки");
+        System.out.println("Содержимое массива после сортировки");
         System.out.println();
         for (int j = 0; j < mass.length; j++) {
             if (j == mass.length - 1) {
