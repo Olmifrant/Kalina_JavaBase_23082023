@@ -26,7 +26,7 @@ public class dz_011 {
                     break;
 
                 } else {
-                    System.out.println("В диапазоне от 2 до 100 пожалуйста!");
+                    System.out.println("В диапазоне от 2 до 1000 пожалуйста!");
                     System.out.println();
                     sc1.nextLine();
                 }
