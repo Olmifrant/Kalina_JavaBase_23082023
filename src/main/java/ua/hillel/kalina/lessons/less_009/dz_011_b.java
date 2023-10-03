@@ -18,7 +18,7 @@ public class dz_011_b {
             System.out.println("Введите количество строк матрицы ");
             if (sc1.hasNextInt()) {
                 int userValue = sc1.nextInt();
-                if (userValue >= 0 && userValue <= 9) {
+                if (userValue >= 2 && userValue <= 50) {
                     System.out.println("Количество строк матрицы  = " + userValue);
                     System.out.println();
                     n = userValue;
@@ -26,7 +26,7 @@ public class dz_011_b {
                     break;
 
                 } else {
-                    System.out.println("В диапазоне от 0 до 9 пожалуйста!");
+                    System.out.println("В диапазоне от 2 до 100 пожалуйста!");
                     System.out.println();
                     sc1.nextLine();
                 }
@@ -37,7 +37,6 @@ public class dz_011_b {
             }
         }
 
-
         Scanner sc2 = new Scanner(System.in);
         int m = 0;
 
@@ -45,7 +44,7 @@ public class dz_011_b {
             System.out.println("Введите количество столбцов матрицы ");
             if (sc2.hasNextInt()) {
                 int userValue = sc2.nextInt();
-                if (userValue >= 0 && userValue <= 9) {
+                if (userValue >= 2 && userValue <= 50) {
                     System.out.println("Количество столбцов матрицы = " + userValue);
                     System.out.println();
                     m = userValue;
@@ -53,7 +52,7 @@ public class dz_011_b {
                     break;
 
                 } else {
-                    System.out.println("В диапазоне от 0 до 9 пожалуйста!");
+                    System.out.println("В диапазоне от 2 до 100 пожалуйста!");
                     System.out.println();
                     sc2.nextLine();
                 }
@@ -65,13 +64,15 @@ public class dz_011_b {
         }
 
 
-        System.out.println("Матрица шириной " + n);
-        System.out.println("Матрица длинной " + m);
+        System.out.println("Количество строк    " + n);
+        System.out.println("Количество столбцов " + m);
         System.out.println();
         System.out.println("Заполнение матрицы случайными значениями ");
+        System.out.println();
 
 
-        int[][] mat1 = new int[n][m];
+
+        int [][] mat1 = new int[n][m];
         for (int i = 0; i < mat1.length; i++) {
             for (int j = 0; j < mat1[i].length; j++) {
                 mat1[i][j] = (int) (Math.random() * 101);
@@ -79,25 +80,28 @@ public class dz_011_b {
         }
 
         System.out.println("Исходный вид матрицы ");
+        System.out.println();
         for (int i = 0; i < mat1.length; i++) {
             for (int j = 0; j < mat1[i].length; j++) {
                 System.out.print(mat1[i][j] + "\t");
             }
             System.out.println();
         }
+        System.out.println();
+
+        int [][] mat2 = new int [m][n];
 
         for (int i = 0; i < mat1.length; i++) {
-            for (int j = i + 1; j < mat1[i].length; j++) {
-                int temp = mat1[i][j];
-                mat1[i][j] = mat1[j][i];
-                mat1[j][i] = temp;
+            for (int j = 0; j < mat1[i].length; j++) {
+                mat2[j][i] = mat1[i][j];
             }
         }
 
-        System.out.println("Транспон");
-        for (int i = 0; i < mat1.length; i++) {
-            for (int j = 0; j < mat1[i].length; j++) {
-                System.out.print(mat1[i][j] + "\t");
+        System.out.println("Транспонированный вид матрицы");
+        System.out.println();
+        for (int i = 0; i < mat2.length; i++) {
+            for (int j = 0; j < mat2[i].length; j++) {
+                System.out.print(mat2[i][j] + "\t");
             }
             System.out.println();
         }
