@@ -81,12 +81,8 @@ public class dz_plus {
             }
         }
 
-
-        System.out.println();
         System.out.println("Идет поиск");
         System.out.println();
-
-
 
         int index = -1;
         int left = 0;
@@ -97,7 +93,6 @@ public class dz_plus {
             if (mass[mid] == userNumb) {
                 index = mid;
                 System.out.println("Число " + userNumb + " " + "находится в ячейке"  + " " + index);
-                System.out.println();
                 break;
             } else if (mass[mid] < userNumb) {
                 left = mid + 1;
@@ -109,7 +104,7 @@ public class dz_plus {
         if (index == -1){
             System.out.println("Поиск не дал результатов");
         }
-        System.out.println();
+
 
     }
 }
