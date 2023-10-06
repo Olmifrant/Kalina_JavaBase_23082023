@@ -6,11 +6,11 @@ public class main {
 
         public static void main(String[] args) {
 
-            Person person1 = new Person("Dean   ", "Winchester", "Lawrence", "1-866-907-3235");
-            Person person2 = new Person("Sam    ", "Winchester", "Lawrence", "1-866-907-3235");
-            Person person3 = new Person("John   ", "Winchester", "Lawrence", "1-866-907-3235");
-            Person person4 = new Person("Castiel", "(Cas)     ", "Heaven  ", "Angel Radio");
-            Person person5 = new Person("Fergus ", "MacLeod   ", "Hell    ", "Rite at the crossroads");
+            Person person1 = new Person("Dean  ", "Winchester", "Lawrence", "1-866-907-3235");
+            Person person2 = new Person("Sam   ", "Winchester", "Lawrence", "1-866-907-3235");
+            Person person3 = new Person("John  ", "Winchester", "Lawrence", "1-866-907-3235");
+            Person person4 = new Person("Cas   ", "Castiel   ", "Heaven  ", "Angel Radio");
+            Person person5 = new Person("Fergus", "MacLeod   ", "Hell    ", "Rite at the crossroads");
 
             System.out.println(person1.personInfo());
             System.out.println(person2.personInfo());
