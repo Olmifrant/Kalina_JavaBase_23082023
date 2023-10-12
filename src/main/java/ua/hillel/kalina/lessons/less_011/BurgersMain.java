@@ -63,7 +63,7 @@ public class BurgersMain {
         public Burger(boolean bun, boolean meat, boolean cheese, boolean lettuce, boolean mayonnaise) {
 
 
-            this.count = count;
+
             this.bun = bun;
             this.meat = meat;
             this.cheese = cheese;
@@ -75,7 +75,8 @@ public class BurgersMain {
                 System.out.println("Состав: булка, мясо двойное, сыр, зелень, майонез");
                 System.out.println();
             } else {
-                System.out.println("Обязательна двойная порция мяса");
+                System.out.println("3. Бургер с двойной порцией мяса временно недоступен для выбора");
+                System.out.println();
             }
         }
 
