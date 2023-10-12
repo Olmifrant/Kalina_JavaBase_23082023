@@ -16,11 +16,11 @@ public class BurgersMain {
         System.out.println();
         System.out.println("При выборе любого варианта зубочистка в подарок!");
 
-//        System.out.println();
-//        System.out.println(burger1);
-//        System.out.println(burger2);
-//        System.out.println(burger3);
-//        System.out.println(burger4);
+        System.out.println();
+        System.out.println(burger1);
+        System.out.println(burger2);
+        System.out.println(burger3);
+        System.out.println(burger4);
 
     }
 }
@@ -28,11 +28,11 @@ public class BurgersMain {
     class Burger {
 
         int count = 2;
-        private boolean bun;
-        private boolean meat;
-        private boolean cheese;
-        private boolean lettuce;
-        private boolean mayonnaise;
+        boolean bun;
+        boolean meat;
+        boolean cheese;
+        boolean lettuce;
+        boolean mayonnaise;
 
         public Burger() {
 
