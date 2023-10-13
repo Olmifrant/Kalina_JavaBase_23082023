@@ -2,13 +2,13 @@ package ua.hillel.kalina.lessons.less_012;
 
 public class UserData {
 
-    private String name;
+    private final String name;
     private String surname;
-    private int dayOfBirth;
-    private int monthOfBirth;
-    private int yearOfBirth;
-    private String phone;
-    private String email;
+    private final int dayOfBirth;
+    private final int monthOfBirth;
+    private final int yearOfBirth;
+    private final String phone;
+    private final String email;
     private int weight;
     private int pressure1;
     private int pressure2;
