@@ -16,6 +16,7 @@ public class UserData {
     private int age;
 
 
+
     public UserData(String name, String surname, int dayOfBirth, int monthOfBirth, int yearOfBirth,
                      String phone, String email, int weight, int pressure1, int pressure2, int steps) {
         this.name = name;
@@ -112,5 +113,4 @@ public class UserData {
         System.out.println("Эл.почта: " + email);
         System.out.println();
     }
-
 }
