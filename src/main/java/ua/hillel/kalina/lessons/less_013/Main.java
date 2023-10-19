@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MusicStyles[] musicStyles= {new PopMusic(),new ClassicMusic(),new RockMusic()};
+        MusicStyles[] musicStyles= {new PopMusic(),new ClassicMusic(),new RockMusic(),new PostRock()};
 
         System.out.println();
 
