@@ -7,7 +7,6 @@ public class Main {
 
         MusicStyles[] musicStyles= {new PopMusic(),new ClassicMusic(),new RockMusic(),new PostRock()};
 
-
         System.out.println();
 
         for (MusicStyles styles : musicStyles) {
