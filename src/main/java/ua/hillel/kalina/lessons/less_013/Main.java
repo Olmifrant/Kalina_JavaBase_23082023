@@ -9,8 +9,8 @@ public class Main {
 
         System.out.println();
 
-        for (MusicStyles style : musicStyles) {
-            style.playMusic();
+        for (MusicStyles styles : musicStyles) {
+            styles.playMusic();
 
         }
 
