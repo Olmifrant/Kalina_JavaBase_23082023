@@ -3,30 +3,35 @@ package ua.hillel.kalina.lessons.less_014;
 public class Androids implements Smartphones,LinuxOS {
 
 
+    @Override
     public void call() {
 
-        System.out.println("Звонок на устройстве андроид ");
-
+        System.out.println("Входящий вызов на устройстве Android ");
     }
 
+    @Override
     public void sms() {
 
-        System.out.println("Сообщение на устройстве андроид");
-
+        System.out.println("Входящее сообщение на устройстве Android");
     }
 
+    @Override
     public void internet() {
 
-        System.out.println("Интернет на устройстве андроид");
+        System.out.println("Мобильный интернет на устройстве Android");
+    }
+
+    @Override
+    public void osVersion() {
+
+        System.out.println("Версия программного обеспечения = Android 13");
 
     }
 
-    public void version() {
-
-        System.out.println("Версия андроид = 13");
-        System.out.println();
+    @Override
+    public void modelInfo(){
+        System.out.println("Модель устройства LG V60 V600EA");
     }
-
 }
 
 

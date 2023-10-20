@@ -10,12 +10,16 @@ public class Main {
         android.call();
         android.sms();
         android.internet();
-        android.version();
+        android.osVersion();
+        android.modelInfo();
+
+        System.out.println();
 
         IPhones iPhone = new IPhones();
         iPhone.call();
         iPhone.sms();
         iPhone.internet();
-        iPhone.version();
+        iPhone.osVersion();
+        iPhone.modelInfo();
     }
 }

@@ -3,27 +3,32 @@ package ua.hillel.kalina.lessons.less_014;
 public class IPhones implements Smartphones,IOS {
 
 
+    @Override
     public void call() {
 
-        System.out.println("Звонок на Iphone");
-
+        System.out.println("Входящий вызов на устройстве Iphone");
     }
 
+    @Override
     public void sms() {
 
-        System.out.println("Сообщение на Iphone");
-
+        System.out.println("Входящее сообщение на устройстве Iphone");
     }
 
+    @Override
     public void internet() {
 
-        System.out.println("Интернет на Iphone");
-
+        System.out.println("Мобильный интернет на Iphone");
     }
 
-    public void version() {
+    @Override
+    public void osVersion() {
 
-        System.out.println("Версия IOS = 17");
+        System.out.println("Версия программного обеспечения = IOS 17");
+    }
 
+    @Override
+    public  void modelInfo() {
+        System.out.println("Iphone 15 pro max ");
     }
 }

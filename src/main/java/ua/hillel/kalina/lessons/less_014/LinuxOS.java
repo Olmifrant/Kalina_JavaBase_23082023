@@ -2,6 +2,7 @@ package ua.hillel.kalina.lessons.less_014;
 
 public interface LinuxOS {
 
-    void version();
+    void osVersion();
 
-    }
+    void modelInfo();
+}
