@@ -29,6 +29,6 @@ public class IPhones implements Smartphones,IOS {
 
     @Override
     public  void modelInfo() {
-        System.out.println("Iphone 15 pro max ");
+        System.out.println("Модель устройства Iphone 15 pro max ");
     }
 }
