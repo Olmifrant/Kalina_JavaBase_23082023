@@ -18,7 +18,7 @@ public class IPhones implements Smartphones,IOS {
     @Override
     public void internet() {
 
-        System.out.println("Мобильный интернет на Iphone");
+        System.out.println("Мобильный интернет на устройстве Iphone");
     }
 
     @Override
