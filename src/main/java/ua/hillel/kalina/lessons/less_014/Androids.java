@@ -6,7 +6,7 @@ public class Androids implements Smartphones,LinuxOS {
     @Override
     public void call() {
 
-        System.out.println("Входящий вызов на устройстве Android ");
+        System.out.println("Входящий   вызов   на устройстве Android ");
     }
 
     @Override

@@ -6,7 +6,7 @@ public class IPhones implements Smartphones,IOS {
     @Override
     public void call() {
 
-        System.out.println("Входящий вызов на устройстве Iphone");
+        System.out.println("Входящий   вызов   на устройстве Iphone");
     }
 
     @Override
