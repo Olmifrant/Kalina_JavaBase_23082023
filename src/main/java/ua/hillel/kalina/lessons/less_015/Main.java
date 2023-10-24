@@ -7,27 +7,29 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Автомат с напитками");
+
 
         while (true) {
             System.out.println();
             System.out.println("Выберете напиток из списка: ");
-            System.out.println("1. Кофе");
-            System.out.println("2. Чай");
-            System.out.println("3. Лимонад");
-            System.out.println("4. Мохито");
-            System.out.println("5. Газировка");
-            System.out.println("6. Кока Кола");
-            System.out.println("7. Виски");
-            System.out.println("8. Коньяк");
-            System.out.println("9. Абсент");
+            System.out.println("01. Кофе");
+            System.out.println("02. Чай");
+            System.out.println("03. Лимонад");
+            System.out.println("04. Мохито");
+            System.out.println("05. Газировка");
+            System.out.println("06. Кока Кола");
+            System.out.println("07. Виски");
+            System.out.println("08. Коньяк");
+            System.out.println("09. Абсент");
             System.out.println("10. Текила");
             System.out.println("11. Закончить выбор напитков");
 
+            Scanner scanner = new Scanner(System.in);
             int choice = 0;
             while (true) {
                 if (scanner.hasNextInt()) {
-                     choice = scanner.nextInt();
+                    choice = scanner.nextInt();
                     scanner.nextLine();
                     if (choice >= 0 && choice <= 11) {
                         break;
@@ -89,7 +91,7 @@ public class Main {
                     return;
 
                 default:
-                    System.out.println("Неправильный выбор");
+                    System.out.println("JAVе так спокойнее");
                     continue;
 
             }

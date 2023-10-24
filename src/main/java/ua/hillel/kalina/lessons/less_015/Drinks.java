@@ -5,13 +5,13 @@ public class Drinks {
     public static final double COFFEE_PRICE = 2.0;
     public static final double TEA_PRICE = 1.25;
     public static final double LEMONADE_PRICE = 1.75;
-    public static final double MOCHITO_PRICE = 3.5;
+    public static final double MOCHITO_PRICE = 3.50;
     public static final double SODA_PRICE = 1.25;
     public static final double COCA_COLA_PRICE = 2.0;
     public static final double WHISKEY_PRICE = 10.25;
-    public static final double COGNAC_PRICE = 8.5;
+    public static final double COGNAC_PRICE = 8.50;
     public static final double ABSCENT_PRICE = 9.75;
-    public static final double TEQUILA_PRICE = 7.5;
+    public static final double TEQUILA_PRICE = 7.50;
     private static double totalСost = 0.0;
     private static int totalDrinks = 0;
 
@@ -22,47 +22,47 @@ public class Drinks {
         switch (drink) {
 
             case COFFEE:
-                System.out.println("Выполнен заказ Кофе");
+                System.out.println("Выполнен заказ Кофе стоимостью " + COFFEE_PRICE + " UAH" );
                 break;
 
             case TEA:
-                System.out.println("Выполнен заказ Чай");
+                System.out.println("Выполнен заказ Чай стоимостью " + TEA_PRICE + " UAH");
                 break;
 
             case LEMONADE:
-                System.out.println("Выполнен заказ Лимонад");
+                System.out.println("Выполнен заказ Лимонад стоимостью " + LEMONADE_PRICE + " UAH" );
                 break;
 
             case MOCHITO:
-                System.out.println("Выполнен заказ Мохито");
+                System.out.println("Выполнен заказ Мохито стоимостью " + MOCHITO_PRICE + " UAH" );
                 break;
 
             case SODA:
-                System.out.println("Выполнен заказ Газировка");
+                System.out.println("Выполнен заказ Газировка стоимостью " + SODA_PRICE + " UAH");
                 break;
 
             case COCA_COLA:
-                System.out.println("Выполнен заказ Кока Кола");
+                System.out.println("Выполнен заказ Кока Кола стоимостью " + COCA_COLA_PRICE + " UAH");
                 break;
 
             case COGNAC:
-                System.out.println("Выполнен заказ Коньяк");
+                System.out.println("Выполнен заказ Коньяк стоимостью " + COGNAC_PRICE + " UAH");
                 break;
 
             case WHISKEY:
-                System.out.println("Выполнен заказ Виски");
+                System.out.println("Выполнен заказ Виски стоимостью " + WHISKEY_PRICE + " UAH");
                 break;
 
             case ABSCENT:
-                System.out.println("Выполнен заказ Абсент");
+                System.out.println("Выполнен заказ Абсент стоимостью " + ABSCENT_PRICE +  " UAH");
                 break;
 
             case TEQUILA:
-                System.out.println("Выполнен заказ Текила");
+                System.out.println("Выполнен заказ Текила стоимостью " + TEQUILA_PRICE +  " UAH");
                 break;
 
             default:
-                System.out.println("Что то пошло не так ");
+                System.out.println("Для душевного спокойствия JAVы ");
 
         }
 
@@ -121,7 +121,7 @@ public class Drinks {
 
         System.out.println("Всего заказано напитков : " + totalDrinks);
 
-        System.out.println("Общая стоимость заказа : " + totalСost);
+        System.out.println("Общая стоимость заказа : " + totalСost + " UAH");
 
     }
 
