@@ -22,7 +22,7 @@ public class Drinks {
         switch (drink) {
 
             case COFFEE:
-                System.out.println("Выполнен заказ Кофе стоимостью " + COFFEE_PRICE + " UAH" );
+                System.out.println("Выполнен заказ Кофе стоимостью " + COFFEE_PRICE + " UAH");
                 break;
 
             case TEA:
@@ -30,11 +30,11 @@ public class Drinks {
                 break;
 
             case LEMONADE:
-                System.out.println("Выполнен заказ Лимонад стоимостью " + LEMONADE_PRICE + " UAH" );
+                System.out.println("Выполнен заказ Лимонад стоимостью " + LEMONADE_PRICE + " UAH");
                 break;
 
             case MOCHITO:
-                System.out.println("Выполнен заказ Мохито стоимостью " + MOCHITO_PRICE + " UAH" );
+                System.out.println("Выполнен заказ Мохито стоимостью " + MOCHITO_PRICE + " UAH");
                 break;
 
             case SODA:
@@ -54,18 +54,17 @@ public class Drinks {
                 break;
 
             case ABSCENT:
-                System.out.println("Выполнен заказ Абсент стоимостью " + ABSCENT_PRICE +  " UAH");
+                System.out.println("Выполнен заказ Абсент стоимостью " + ABSCENT_PRICE + " UAH");
                 break;
 
             case TEQUILA:
-                System.out.println("Выполнен заказ Текила стоимостью " + TEQUILA_PRICE +  " UAH");
+                System.out.println("Выполнен заказ Текила стоимостью " + TEQUILA_PRICE + " UAH");
                 break;
 
             default:
                 System.out.println("Для душевного спокойствия JAVы ");
 
         }
-
         totalDrinks++;
 
     }
@@ -119,9 +118,9 @@ public class Drinks {
 
     public static void displayTotal() {
 
-        System.out.println("Всего заказано напитков : " + totalDrinks);
+        System.out.println("Всего заказано напитков: " + totalDrinks);
 
-        System.out.println("Общая стоимость заказа : " + totalСost + " UAH");
+        System.out.println("Общая стоимость заказа: " + totalСost + " UAH");
 
     }
 

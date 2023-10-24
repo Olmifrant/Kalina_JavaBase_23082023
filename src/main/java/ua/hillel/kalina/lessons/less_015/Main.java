@@ -23,22 +23,22 @@ public class Main {
             System.out.println("08. Коньяк");
             System.out.println("09. Абсент");
             System.out.println("10. Текила");
-            System.out.println("11. Закончить выбор напитков");
+            System.out.println("11. Закончить выбор напитков и рассчитать заказ");
 
-            Scanner scanner = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in);
             int choice = 0;
             while (true) {
-                if (scanner.hasNextInt()) {
-                    choice = scanner.nextInt();
-                    scanner.nextLine();
-                    if (choice >= 0 && choice <= 11) {
+                if (scan.hasNextInt()) {
+                    choice = scan.nextInt();
+                    scan.nextLine();
+                    if (choice >= 1 && choice <= 11) {
                         break;
                     } else {
-                        System.out.println("Выберите вариант с 1 по 11");
+                        System.out.println("Выберите вариант из списка пожалуйста!");
                     }
                 } else {
                     System.out.println("Только цифры пожалуйста!");
-                    scanner.nextLine();
+                    scan.nextLine();
                 }
             }
 
@@ -101,9 +101,7 @@ public class Main {
             Drinks.calculateTotalAmount(drink);
 
         }
-
     }
-
 }
 
 
