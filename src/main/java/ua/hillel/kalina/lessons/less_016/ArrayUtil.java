@@ -1,27 +1,40 @@
 package ua.hillel.kalina.lessons.less_016;
 
-import java.util.Arrays;
+
 
 public class ArrayUtil {
 
-    public static int averageSum(int[] array) {
+    public static double averageSum(int[] array) {
         if (array == null) {
-            return -3;
+            return 1;
         }
         if (array.length == 0) {
-            return -2;
+            return 2;
         }
-
-        int x = 0;
+        double x = 0;
         for (int i = 0; i < array.length; i++) {
             x = x + array[i];
         }
-        int average = x / array.length;
-
-        System.out.println(average);
-
-        return -1;
+        double average =  x / array.length;
+        System.out.println("Cреднее арифметическое массива " + average);
+        return (double) average;
     }
+
+
+
+//    public static int squareMatrix (int [][] arrays){
+//        if (arrays == null) {
+//            return -3;
+//        }
+//        if (arrays.length == 0) {
+//            return -2;
+//        }
+//
+//        if (arrays1.length == arrays2.length) {
+//            System.out.println("Двумерный массив является квадратным");
+//        }
+//        return -1;
+//    }
 
 
 }

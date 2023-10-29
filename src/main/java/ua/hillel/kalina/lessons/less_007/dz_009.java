@@ -14,7 +14,7 @@ public class dz_009 {
             int rand1 = (int) ((Math.random() * 23) + 18);
             team1[i] = rand1;
         }
-        System.out.print("Возраст игроков первой комманды ");
+        System.out.print("Возраст игроков первой команды ");
         for (int i = 0; i < team1.length; i++) {
             if (i == team1.length - 1) {
                 System.out.print(team1[i]);
@@ -30,7 +30,7 @@ public class dz_009 {
             int rand2 = (int) ((Math.random() * 23) + 18);
             team2[i] = rand2;
         }
-        System.out.print("Возраст игроков второй комманды ");
+        System.out.print("Возраст игроков второй команды ");
         for (int i = 0; i < team2.length; i++) {
             if (i == team2.length - 1) {
                 System.out.print(team2[i]);
@@ -47,7 +47,7 @@ public class dz_009 {
             sumAgeTeam1 = Arrays.stream(team1).sum();
         }
         double avAgeTeam1 = (sumAgeTeam1 / team1.length);
-        System.out.println("Средний возраст первой комманды " + avAgeTeam1);
+        System.out.println("Средний возраст первой команды " + avAgeTeam1);
 
 
         double sumAgeTeam2 =0;
@@ -55,7 +55,7 @@ public class dz_009 {
             sumAgeTeam2 = Arrays.stream(team2).sum();
         }
         double avAgeTeam2 = (sumAgeTeam2 / team2.length);
-        System.out.println("Средний возраст второй комманды " + avAgeTeam2);
+        System.out.println("Средний возраст второй команды " + avAgeTeam2);
 
 
     }
