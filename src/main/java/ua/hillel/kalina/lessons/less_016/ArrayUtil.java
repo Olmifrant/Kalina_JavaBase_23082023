@@ -1,44 +1,33 @@
 package ua.hillel.kalina.lessons.less_016;
 
+import java.util.Arrays;
+
 public class ArrayUtil {
 
-
-    // if quatro - return -2
-    // if null - return -3
-
-
-    public static int getIndexElement(int[] array, int element) {
+    public static int averageSum(int[] array) {
         if (array == null) {
             return -3;
         }
-
         if (array.length == 0) {
             return -2;
         }
 
+        int x = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == element) {
-                return i;
-            }
+            x = x + array[i];
         }
+        int average = x / array.length;
+
+        System.out.println(average);
 
         return -1;
     }
 
 
-
-
-
-    public static int metod1(int[][] aray) {
-        if (aray == null) {
-            return -3;
-
-        }
-
-        if (aray[i].length == aray[j].length) {
-            return -2;
-
-        }
-        return -1;
-    }
 }
+
+
+
+
+
+
