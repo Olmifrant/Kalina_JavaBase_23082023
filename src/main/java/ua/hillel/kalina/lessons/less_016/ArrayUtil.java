@@ -1,7 +1,6 @@
 package ua.hillel.kalina.lessons.less_016;
 
 
-
 public class ArrayUtil {
 
     public static double averageSum(int[] array) {
@@ -20,7 +19,6 @@ public class ArrayUtil {
         return (double) average;
     }
 
-
     public static int squareMatrix(int[][] array) {
         if (array == null) {
             return -3;
@@ -33,12 +31,10 @@ public class ArrayUtil {
             System.out.println("Двумерный массив является квадратным");
            return 1;
         }else {
-            System.out.println("Двумерный массив не  является квадратным");
+            System.out.println("Двумерный массив не является квадратным");
         }
         return -1;
     }
-
-
 }
 
 
