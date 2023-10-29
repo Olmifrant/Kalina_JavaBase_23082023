@@ -62,13 +62,41 @@ public class ArrayUtilTest {
         System.out.println();
     }
 
-
-//    @Test
-//    void testMethod4(){
-//        int [][] array = new int[5][10];
-//
-//    }
-
-
+    @Test
+    void testMethod6(){
+        System.out.println("Массив NULL");
+        int [][] array = null;
+        int indexElement = ArrayUtil.squareMatrix(array);
+        Assertions.assertEquals(-3,indexElement);
+        System.out.println("Тест 1 PASS");
+        System.out.println();
+    }
+    @Test
+    void testMethod7(){
+        System.out.println("Пустой массив");
+        int [][] array = new int[0][0];
+        int indexElement = ArrayUtil.squareMatrix(array);
+        Assertions.assertEquals(-2,indexElement);
+        System.out.println("Тест 1 PASS");
+        System.out.println();
+    }
+    @Test
+    void testMethod8(){
+        System.out.println("Квадратный массив");
+        int [][] array = new int[5][5];
+        int indexElement = ArrayUtil.squareMatrix(array);
+        Assertions.assertEquals(1,indexElement);
+        System.out.println("Тест 1 PASS");
+        System.out.println();
+    }
+    @Test
+    void testMethod9(){
+        System.out.println("Не квадратный массив");
+        int [][] array = new int[5][8];
+        int indexElement = ArrayUtil.squareMatrix(array);
+        Assertions.assertEquals(-1,indexElement);
+        System.out.println("Тест 1 PASS");
+        System.out.println();
+    }
 
 }
