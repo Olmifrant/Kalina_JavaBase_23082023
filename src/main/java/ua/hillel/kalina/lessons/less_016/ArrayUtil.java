@@ -16,8 +16,9 @@ public class ArrayUtil {
         }
         double average = x / array.length;
         System.out.println("Cреднее арифметическое массива " + average);
-        return (double) average;
+        return average;
     }
+
 
     public static int squareMatrix(int[][] array) {
         if (array == null) {
